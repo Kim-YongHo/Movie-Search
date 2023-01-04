@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "./Home";
+import Movie from "./Movie";
 import About from "./About";
 
 export default createRouter({
@@ -7,6 +8,7 @@ export default createRouter({
   routes: [
     // path별 component를 추가한다.
     { path: "/", component: Home },
+    { path: "/movie", component: Movie },
     { path: "/about", component: About },
   ],
 });

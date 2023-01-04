@@ -1,1 +1,15 @@
-//@import "../../node_modules/bootstrap/scss/bootstrap";
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+$primary: #fdc000; //import 전에 재정의 해야 적용됨
+
+// Required
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+//@import "../node_modules/bootstrap/scss/variables-dark";
+//@import "../node_modules/bootstrap/scss/maps";
+//@import "../node_modules/bootstrap/scss/root";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
